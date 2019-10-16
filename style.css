@@ -34,5 +34,10 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-    background-color: red;
+    background-color: darkblue;
+}
+
+img {
+    width: 250;
+    height: 300;
 }
