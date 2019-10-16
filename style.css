@@ -1,5 +1,5 @@
 body{
-    background-color: powderblue;
+    background-color: azure;
 }
 h1 {
    font-size: 300%; 
@@ -12,4 +12,27 @@ h2 {
     color:black;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    border: 2px solid dodgerblue;
+    padding: 12px;
+    margin: 50px;
+}
+#ul01 {
+    background-color: bisque;
+}
+
+p.exText {
+    color: red;
+}
+
+a:link, a:visited {
+    background-color: royalblue;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: red;
 }
