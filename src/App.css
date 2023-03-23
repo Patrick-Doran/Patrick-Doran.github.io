@@ -7,3 +7,16 @@ body{
   background-color: #020F23;
   color: #ffff;
 }
+
+nav{
+  padding-top: 2rem;
+  padding-left: 2rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #052453;
+}
+
+nav .logo{
+  font-size: 24px;
+  font-weight: bold;
+}
