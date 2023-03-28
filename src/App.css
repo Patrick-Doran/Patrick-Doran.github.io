@@ -28,6 +28,16 @@ nav .logo{
   font-weight: bold;
 }
 
+.hero{
+  padding: 2em;
+}
+.profilePic{
+  border-radius: 50%;
+  align-content: center;
+  width: 50em;
+  height: auto;
+}
+
 footer{
   color: #ffff;
   text-align: center;
