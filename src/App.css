@@ -11,9 +11,16 @@ body{
 nav{
   padding-top: 2rem;
   padding-left: 2rem;
+  padding-right: 1.2rem;
+  padding-bottom: 1.2rem;
   display: flex;
   justify-content: space-between;
   background-color: #052453;
+}
+nav a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5em;
 }
 
 nav .logo{
