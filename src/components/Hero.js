@@ -8,8 +8,8 @@ const Hero = () => {
         <div className="hero">
             <p className="logo">Patrick Doran</p>
             <div>
-                <a href="https://github.com/Patrick-Doran" className="linkIcon"><FontAwesomeIcon icon={faGithub} size="5x" inverse /></a>
-                <a href="https://www.linkedin.com/in/patrick-doran/" className="linkIcon"><FontAwesomeIcon icon={faLinkedin} size="5x" inverse/></a>
+                <a href="https://github.com/Patrick-Doran" className="linkIcon" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} size="5x" inverse /></a>
+                <a href="https://www.linkedin.com/in/patrick-doran/" className="linkIcon" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} size="5x" inverse/></a>
             </div>
         </div>
     );
