@@ -1,7 +1,7 @@
 {
   "name": "myportfolio",
   "version": "0.1.0",
-  "homepage": "https://patrick-doran.github.io",
+  "homepage": "https://patrick-doran.github.io/patrick-doran.github.io",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
