@@ -1,10 +1,16 @@
 import React from "react";
-import peacock from "../assets/peacock.jpg"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Hero = () => {
     return(
         <div className="hero">
-            <img className="profilePic" src={peacock} alt="Peacock"></img>
+            <p className="logo">Patrick Doran</p>
+            <div>
+                <a href="https://github.com/Patrick-Doran" className="linkIcon"><FontAwesomeIcon icon={faGithub} size="2x" inverse /></a>
+                <a href="https://www.linkedin.com/in/patrick-doran/" className="linkIcon"><FontAwesomeIcon icon={faLinkedin} size="2x" inverse/></a>
+            </div>
         </div>
     );
 };

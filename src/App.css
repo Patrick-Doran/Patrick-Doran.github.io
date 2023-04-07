@@ -8,37 +8,25 @@ body{
   color: #ffff;
 }
 
-nav{
-  padding-top: 2rem;
-  padding-left: 2rem;
-  padding-right: 1.2rem;
-  padding-bottom: 1.2rem;
-  display: flex;
-  justify-content: space-between;
-  background-color: #052453;
-}
-nav a{
-  text-decoration: none;
-  color: #fff;
-  font-size: 1.5em;
-}
-
-nav .logo{
-  font-size: 24px;
-  font-weight: bold;
-}
-
+/* Container */
 .hero{
-  padding: 2em;
-}
-.profilePic{
-  border-radius: 50%;
-  align-content: center;
-  width: 50em;
-  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
 }
 
-footer{
-  color: #ffff;
-  text-align: center;
+/* Links */
+.linkIcon{
+  padding: 1em;
+}
+
+/* Text */
+.logo{
+  font-size: 18rem;
+  font-weight: bold;
+  background:url('/src/assets/giphy.gif');
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
