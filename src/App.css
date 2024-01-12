@@ -47,4 +47,5 @@ body{
 .projectImages img{
   height: 50vh;
   padding: 5px;
+  border-radius: 10px;
 }

@@ -7,9 +7,9 @@ const Personal = () => {
     return(
         <div className="projects">
             <div className="projectImages">
-                <img src={karmere} alt="description" />
-                <img src={cloverdale} alt="description" />
-                <img src={shadyLane} alt="description" />
+                <a href="https://www.karmere.com/" target="_blank"><img src={karmere} alt="description" /></a>
+                <a href="https://cloverdalechamber.com/experience-cloverdale/" target="_blank"><img src={cloverdale} alt="description" /></a>
+                <a href="https://www.shadylanecellars.com/brio/" target="_blank"><img src={shadyLane} alt="description" /></a>
             </div>
         </div>
     );
