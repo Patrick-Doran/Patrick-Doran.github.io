@@ -1,12 +1,12 @@
 import './App.css';
 import Hero from './components/Hero'
-import Personal from './components/Personal'
+import Professional from './components/Professional'
 
 function App() {
   return (
     <main>
       <Hero />
-      <Personal />
+      <Professional />
     </main>
   );
 }
