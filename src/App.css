@@ -1,6 +1,8 @@
 *{
   margin: 0;
   padding: 0;
+  /* shout out Adam Wathan */
+  min-width: 0;
 }
 @font-face {
   font-family: 'Montserrat', sans-serif;
@@ -10,6 +12,26 @@
 body{
   background-color: #7b9fdd;
   color: #ffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  color: #ffff;
+  text-decoration: none;
+  font-size: 2rem;
+  text-align: center;
+}
+a:hover{
+  color: #E0544A;
+}
+
+img:hover{
+  box-shadow: 2px 2px 2px 12px #E0544A inset;
+}
+
+h1{
+  font-size: 5rem;
+  text-align: center;
 }
 
 /* Container */
@@ -28,7 +50,6 @@ body{
 
 /* Text */
 .logo{
-  font-family: 'Montserrat', sans-serif;
   font-size: 18rem;
   font-weight: bold;
   background:url('/src/assets/paint.gif');
@@ -37,15 +58,15 @@ body{
 }
 
 /* Projects Sections */
-.projects{
+.projectImages{
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
 }
 
 .projectImages img{
   height: 50vh;
   padding: 5px;
   border-radius: 10px;
+  width: auto;
 }
