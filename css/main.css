@@ -48,7 +48,7 @@ figcaption{
 #fa-brands:hover{
     color: #76ABAE;
 }
-@media (max-width: 375px){
+@media (max-width: 413px){
     h1{
         font-size: 2rem;
         margin-top: 1rem;
