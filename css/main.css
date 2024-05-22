@@ -11,11 +11,18 @@
 h1{
     text-align: center;
     font-size: 2rem;
-    margin-bottom: 1rem;
+}
+.title-header{
+    text-align: center;
+}
+i{
+    margin-top: 1em;
+    margin-right: 1em;
 }
 h2{
     text-align: center;
     font-size: 1rem;
+    margin-top: 1rem;
     margin-bottom: .5rem;
 }
 .image-content{
@@ -26,8 +33,25 @@ img{
     width: 30vw;
     max-height: fit-content;
     border-radius: 1px;
+    transition-duration: .75s;
 }
 img:hover{
+    transition-duration: .75s;
     transform: scale(1.1);
     border: 5px solid #76ABAE;
+}
+figcaption{
+    text-align: center;
+}
+#fa-brands:hover{
+    color: #76ABAE;
+}
+@media (max-width: 375px){
+    .image-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    img{
+        width: 80vw;
+    }
 }
